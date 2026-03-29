@@ -1,0 +1,646 @@
+{
+  "boundary_summary": [
+    {
+      "split": "Training Set",
+      "negative_ratio": 0.0,
+      "min_component_min": 0.004116657190024853,
+      "sum_mean": 1.0,
+      "sum_min": 0.9999998807907104,
+      "sum_max": 1.0000001192092896,
+      "sum_abs_err_mean": 3.330847775373513e-08,
+      "sum_abs_err_max": 1.1920928955078125e-07
+    },
+    {
+      "split": "Testing Set",
+      "negative_ratio": 0.0,
+      "min_component_min": 0.004336088430136442,
+      "sum_mean": 1.0,
+      "sum_min": 0.9999998807907104,
+      "sum_max": 1.0000001192092896,
+      "sum_abs_err_mean": 3.5762788286319847e-08,
+      "sum_abs_err_max": 1.1920928955078125e-07
+    }
+  ],
+  "pcd_report_method": {
+    "style": "paper-style Pm summary based on detailed finite-difference rule compliance",
+    "reported_value": "Pm",
+    "detail_records": [
+      {
+        "split": "Testing Set",
+        "rule": "ER->H2",
+        "rule_order": 0.0,
+        "axis": "ER",
+        "component": "H2",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Testing Set",
+        "rule": "ER->CO2",
+        "rule_order": 1.0,
+        "axis": "ER",
+        "component": "CO2",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Testing Set",
+        "rule": "ER->CO",
+        "rule_order": 2.0,
+        "axis": "ER",
+        "component": "CO",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Testing Set",
+        "rule": "ER->CH4",
+        "rule_order": 3.0,
+        "axis": "ER",
+        "component": "CH4",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Testing Set",
+        "rule": "ER->N2",
+        "rule_order": 4.0,
+        "axis": "ER",
+        "component": "N2",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Testing Set",
+        "rule": "T->H2",
+        "rule_order": 5.0,
+        "axis": "Temperature",
+        "component": "H2",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Testing Set",
+        "rule": "T->CO2",
+        "rule_order": 6.0,
+        "axis": "Temperature",
+        "component": "CO2",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Testing Set",
+        "rule": "T->CO",
+        "rule_order": 7.0,
+        "axis": "Temperature",
+        "component": "CO",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "ER->H2",
+        "rule_order": 0.0,
+        "axis": "ER",
+        "component": "H2",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "ER->CO2",
+        "rule_order": 1.0,
+        "axis": "ER",
+        "component": "CO2",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "ER->CO",
+        "rule_order": 2.0,
+        "axis": "ER",
+        "component": "CO",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "ER->CH4",
+        "rule_order": 3.0,
+        "axis": "ER",
+        "component": "CH4",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "ER->N2",
+        "rule_order": 4.0,
+        "axis": "ER",
+        "component": "N2",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "T->H2",
+        "rule_order": 5.0,
+        "axis": "Temperature",
+        "component": "H2",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "T->CO2",
+        "rule_order": 6.0,
+        "axis": "Temperature",
+        "component": "CO2",
+        "expected": "decreasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      },
+      {
+        "split": "Training Set",
+        "rule": "T->CO",
+        "rule_order": 7.0,
+        "axis": "Temperature",
+        "component": "CO",
+        "expected": "increasing",
+        "Pm": 1.0,
+        "1_minus_Pm": 0.0,
+        "delta_scaled": 0.1,
+        "forward_kind": "full"
+      }
+    ],
+    "overall_table": [
+      {
+        "split": "Testing Set",
+        "Pm": 1.0,
+        "rule_count": 8
+      },
+      {
+        "split": "Training Set",
+        "Pm": 1.0,
+        "rule_count": 8
+      }
+    ],
+    "by_component_table": [
+      {
+        "split": "Testing Set",
+        "component": "CH4",
+        "Pm": 1.0,
+        "rule_count": 1
+      },
+      {
+        "split": "Testing Set",
+        "component": "CO",
+        "Pm": 1.0,
+        "rule_count": 2
+      },
+      {
+        "split": "Testing Set",
+        "component": "CO2",
+        "Pm": 1.0,
+        "rule_count": 2
+      },
+      {
+        "split": "Testing Set",
+        "component": "H2",
+        "Pm": 1.0,
+        "rule_count": 2
+      },
+      {
+        "split": "Testing Set",
+        "component": "N2",
+        "Pm": 1.0,
+        "rule_count": 1
+      },
+      {
+        "split": "Training Set",
+        "component": "CH4",
+        "Pm": 1.0,
+        "rule_count": 1
+      },
+      {
+        "split": "Training Set",
+        "component": "CO",
+        "Pm": 1.0,
+        "rule_count": 2
+      },
+      {
+        "split": "Training Set",
+        "component": "CO2",
+        "Pm": 1.0,
+        "rule_count": 2
+      },
+      {
+        "split": "Training Set",
+        "component": "H2",
+        "Pm": 1.0,
+        "rule_count": 2
+      },
+      {
+        "split": "Training Set",
+        "component": "N2",
+        "Pm": 1.0,
+        "rule_count": 1
+      }
+    ],
+    "source_detail_file": "PCD_detailed_rules_paper.xlsx"
+  },
+  "training_monotonic_metrics": {
+    "E_M_diff_train": 2.9735447565261704e-09,
+    "E_M_seniorfd_train": 0.0,
+    "E_M_seniorfd_test": 0.0,
+    "mono_eval_metric": "senior finite-difference PCD compliance on real train/test sets",
+    "mono_training_source": "synthetic_samples_physics_branch",
+    "mono_report_source": "real_train_test_sets",
+    "lambda_p_effect_note": "Earlier two-point diagnostics already showed that lambda_p now changes the residual trajectory after restricting D(x) to the 8 continuous variables."
+  },
+  "metric_comparison_table": [
+    {
+      "metric_family": "differential_monotonic_training_eval",
+      "scope": "synthetic_samples_physics_branch",
+      "split": "Training Set",
+      "axis": "global",
+      "component": "all",
+      "metric_name": "E_M_diff_train",
+      "value": 2.9735447565261704e-09
+    },
+    {
+      "metric_family": "differential_monotonic_training_eval",
+      "scope": "real_train_test_sets",
+      "split": "Training Set",
+      "axis": "global",
+      "component": "all",
+      "metric_name": "E_M_seniorfd_train",
+      "value": 0.0
+    },
+    {
+      "metric_family": "differential_monotonic_training_eval",
+      "scope": "real_train_test_sets",
+      "split": "Testing Set",
+      "axis": "global",
+      "component": "all",
+      "metric_name": "E_M_seniorfd_test",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "H2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "H2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "CO",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "CO",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "CO2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "CO2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "CH4",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "CH4",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "N2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "ER",
+      "component": "N2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "Temperature",
+      "component": "H2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "Temperature",
+      "component": "H2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "Temperature",
+      "component": "CO",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "Temperature",
+      "component": "CO",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "Temperature",
+      "component": "CO2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Training Set",
+      "axis": "Temperature",
+      "component": "CO2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "H2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "H2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "CO",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "CO",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "CO2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "CO2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "CH4",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "CH4",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "N2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "ER",
+      "component": "N2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "Temperature",
+      "component": "H2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "Temperature",
+      "component": "H2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "Temperature",
+      "component": "CO",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "Temperature",
+      "component": "CO",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "Temperature",
+      "component": "CO2",
+      "metric_name": "violation_rate",
+      "value": 0.0
+    },
+    {
+      "metric_family": "senior_finite_difference_report_eval",
+      "scope": "real_samples",
+      "split": "Testing Set",
+      "axis": "Temperature",
+      "component": "CO2",
+      "metric_name": "compliance_rate",
+      "value": 1.0
+    }
+  ],
+  "pda_surface_trend_assessment": {
+    "H2": {
+      "temp_compliance_ratio": 1.0,
+      "er_compliance_ratio": 1.0,
+      "worst_signed_temp_step": 0.08158282143995166,
+      "worst_signed_er_step": 0.047093361616134644,
+      "assessment": "Overall trend is strongly consistent with the expected monotonic pattern."
+    },
+    "CO": {
+      "temp_compliance_ratio": 1.0,
+      "er_compliance_ratio": 1.0,
+      "worst_signed_temp_step": 0.09106110082939267,
+      "worst_signed_er_step": 0.07292237970978022,
+      "assessment": "Overall trend is strongly consistent with the expected monotonic pattern."
+    },
+    "CO2": {
+      "temp_compliance_ratio": 1.0,
+      "er_compliance_ratio": 1.0,
+      "worst_signed_temp_step": 0.08426349516957998,
+      "worst_signed_er_step": 0.07406378071755171,
+      "assessment": "Overall trend is strongly consistent with the expected monotonic pattern."
+    }
+  }
+}

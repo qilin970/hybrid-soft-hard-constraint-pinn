@@ -1,0 +1,18 @@
+{
+  "config_name": "public_starter_fixedsplit",
+  "run_cfg": {
+    "hidden_dim": 128,
+    "activation": "relu",
+    "alpha": 0.0001,
+    "lr_part": 0.002,
+    "lr_res": 0.002,
+    "lr_joint": 0.0005,
+    "batch_size": 32,
+    "patience": 120,
+    "epochs_part": 450,
+    "epochs_res": 450,
+    "epochs_joint": 260,
+    "mono_delta_scaled": 0.1
+  },
+  "notes": "Public starter configuration for reruns. Replace with your own private config if needed."
+}

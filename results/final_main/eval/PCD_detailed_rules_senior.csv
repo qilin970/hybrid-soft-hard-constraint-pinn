@@ -1,0 +1,17 @@
+Data set,axis,component,input_column,expected,delta_scaled,forward_kind,violation_rate,compliance_rate
+Training Set,ER,H2,ER,decreasing,0.1,full,0.0,1.0
+Training Set,ER,CO,ER,decreasing,0.1,full,0.0,1.0
+Training Set,ER,CO2,ER,increasing,0.1,full,0.0,1.0
+Training Set,ER,CH4,ER,decreasing,0.1,full,0.0,1.0
+Training Set,ER,N2,ER,increasing,0.1,full,0.0,1.0
+Training Set,Temperature,H2,Temperature [°C],increasing,0.1,full,0.0,1.0
+Training Set,Temperature,CO,Temperature [°C],increasing,0.1,full,0.0,1.0
+Training Set,Temperature,CO2,Temperature [°C],decreasing,0.1,full,0.0,1.0
+Testing Set,ER,H2,ER,decreasing,0.1,full,0.0,1.0
+Testing Set,ER,CO,ER,decreasing,0.1,full,0.0,1.0
+Testing Set,ER,CO2,ER,increasing,0.1,full,0.0,1.0
+Testing Set,ER,CH4,ER,decreasing,0.1,full,0.0,1.0
+Testing Set,ER,N2,ER,increasing,0.1,full,0.0,1.0
+Testing Set,Temperature,H2,Temperature [°C],increasing,0.1,full,0.0,1.0
+Testing Set,Temperature,CO,Temperature [°C],increasing,0.1,full,0.0,1.0
+Testing Set,Temperature,CO2,Temperature [°C],decreasing,0.1,full,0.0,1.0

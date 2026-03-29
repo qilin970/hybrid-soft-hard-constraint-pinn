@@ -1,0 +1,8 @@
+Default PCD Summary (Paper-Style Pm)
+- Source JSON: monotonicity_summary_paper.json
+- pcd_overall.xlsx source: pcd_overall_paper.xlsx
+- pcd_by_rule.xlsx source: PCD_detailed_rules_paper.xlsx
+- pcd_by_component.xlsx source: pcd_by_component_paper.xlsx
+- Pm mean by split:
+  - Testing Set: 1.000000
+  - Training Set: 1.000000

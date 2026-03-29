@@ -1,0 +1,7 @@
+{
+  "best_dir": "results/final_main/best_model",
+  "data_xlsx": "data/experiment_data.xlsx",
+  "device": "cuda",
+  "pda_grid_size": 81,
+  "background_samples_for_pda": 200
+}

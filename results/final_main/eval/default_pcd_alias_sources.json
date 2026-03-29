@@ -1,0 +1,6 @@
+{
+  "pcd_overall.xlsx": "pcd_overall_paper.xlsx",
+  "pcd_by_rule.xlsx": "PCD_detailed_rules_paper.xlsx",
+  "pcd_by_component.xlsx": "pcd_by_component_paper.xlsx",
+  "summary.txt": "monotonicity_summary_paper.json"
+}

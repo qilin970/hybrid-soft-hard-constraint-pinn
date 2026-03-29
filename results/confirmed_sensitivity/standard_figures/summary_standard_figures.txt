@@ -1,0 +1,69 @@
+﻿data_file: results/confirmed_sensitivity/summary/confirmed_sensitivity_grid.xlsx
+data_points: 36
+column_mapping:
+- lambda_s: lambda_s
+- lambda_m: lambda_m
+- regression_loss: E_R_train_final
+- monotonic_loss: E_M_train_final
+- min_rule_pcd_test: min_rule_pcd_test
+- r2_mean_test: R2_mean_test
+
+best_point_rule:
+1) max min_rule_pcd_test
+2) min regression loss
+3) min monotonic loss
+4) min lambda_m
+5) min lambda_s
+
+best_point: lambda_s=0.01, lambda_m=100
+best_regression_loss: 0.00021377348438
+best_monotonic_loss: 6.80961597327e-10
+best_min_rule_pcd_test: 1
+
+generated_files:
+- results/confirmed_sensitivity/standard_figures/monotonic_loss_standard.png
+- results/confirmed_sensitivity/standard_figures/monotonic_loss_standard.pdf
+- results/confirmed_sensitivity/standard_figures/min_rule_pcd_standard.png
+- results/confirmed_sensitivity/standard_figures/min_rule_pcd_standard.pdf
+- results/confirmed_sensitivity/standard_figures/regression_loss_standard.png
+- results/confirmed_sensitivity/standard_figures/regression_loss_standard.pdf
+- results/confirmed_sensitivity/standard_figures/sensitivity_standard_triptych.png
+- results/confirmed_sensitivity/standard_figures/sensitivity_standard_triptych.pdf
+- results/confirmed_sensitivity/standard_figures/summary_standard_figures.txt
+
+annotation style updated
+annotation positions adjusted to avoid overlapping curves
+style updated to publication-like reference style
+white background applied
+muted academic color palette applied
+y-axis labels updated to E_M and E_R
+curve colors aligned to reference style
+best-point star restyled to publication-friendly dark red marker
+annotation positions refined for cleaner layout
+best-point star size reduced
+best-point star color softened for publication style
+curve colors brightened to cleaner publication palette
+regression-loss best annotation repositioned to avoid overlap
+curve colors updated to brighter teacher-style publication palette
+all lambda subscripts standardized to uppercase
+background forced to pure white
+regression-loss best annotation further repositioned
+left x-margin adjusted for less crowded low-lambda region
+regression-loss best connector refined
+monotonic-loss best label moved to lower-right of star
+annotation connector curves smoothed for publication style
+best labels manually repositioned according to user-marked target areas
+monotonic-loss best moved to upper-right blank region
+regression-loss best moved to lower-right blank region
+regression-loss best label repositioned again
+best connector arrows refined to smoother publication style
+best star reduced and slightly brightened
+inset zoom added for low-lambda_M region
+best labels moved closer to best points
+best connector lines shortened and softened
+monotonic inset shifted left to avoid legend overlap
+regression inset removed
+regression best label moved to lower-right of star with shorter connector
+best stars brightened for clearer publication emphasis
+best stars made more prominent
+regression-loss best label manually moved to user-specified lower-right area
